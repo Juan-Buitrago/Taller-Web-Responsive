@@ -1,4 +1,24 @@
 .footer {
+  width: 100%;
   position: fixed;
   top: 95%;
-  text-align: center; }
+  text-align: center;
+  background-color: black;
+  color: grey; }
+
+.container-articles section {
+  padding: 50px; }
+
+.text-article span {
+  margin-top: 10px;
+  text-align: justify; }
+
+.img-article {
+  margin: auto;
+  max-width: 200px;
+  max-height: 180px; }
+
+textarea {
+  width: 60%;
+  margin: auto;
+  border: 1px solid grey; }

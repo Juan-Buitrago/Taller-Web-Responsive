@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto Web Responsive</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+	<meta charset="UTF-8">	
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/style.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default navbar-inverse">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Front-End</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="articulos.html">Articulos <span class="sr-only">(current)</span></a></li>
+						<li><a href="#">Categorias</a></li>
+					</ul>
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Ingresa tu consulta">
+						</div>
+						<button type="submit" class="btn btn-default">Buscar</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container container-articles">
+		<div class="jumbotron">
+			<section>
+				<article>
+					<div class="row">
+						<div class="col-md-12 col-xs-12">
+							<img src="dist/img/macos.png" alt="Mac" class="img-responsive img-article">
+						</div>
+					</div>
+					<div class="row text-article">
+						<div class="col-md-12 col-xs-12">
+							<span>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique dui eget velit rhoncus, vitae rutrum urna posuere. Proin euismod augue eu tellus dignissim, vel cursus lacus porttitor. Ut ornare tempor ante, et venenatis sapien gravida vulputate. Pellentesque euismod eget arcu sed tempus. Nulla sagittis accumsan risus quis hendrerit. Nam non lorem eros. Mauris porttitor vitae mi eu porttitor.
+
+								Maecenas at risus porttitor, porta eros vel, dapibus nisi. Nam non nibh eget leo venenatis dignissim sit amet id turpis. Maecenas neque nisi, semper ut maximus sed, fringilla accumsan sapien. Aenean quis erat at leo tincidunt ornare at vitae odio. Aliquam erat volutpat. Curabitur congue scelerisque lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+								Ut pharetra sagittis diam nec molestie. Curabitur feugiat sit amet magna id tempor. Nam luctus neque lacinia venenatis condimentum. Vestibulum a eleifend arcu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam consectetur eros quis justo bibendum gravida. Mauris ante libero, vulputate et diam at, tempor efficitur diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim nisl ut tellus porttitor, iaculis dictum nibh aliquam. Phasellus lorem metus, fermentum eu diam sit amet, bibendum lacinia lorem. Sed non arcu quis enim feugiat tristique vel sit amet nunc. Cras at velit tempus, tristique lectus vitae, vehicula velit. Sed sed mauris ipsum. Aliquam ac porttitor risus, ac finibus mauris. Aenean et laoreet neque, a iaculis massa.
+							</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-xs-12">
+							<div class="form-group">
+								<label for="comment">Añade tu comentario:</label>
+								<textarea class="form-control" rows="5" id="comment"></textarea>
+								<button type="button" class="btn btn-primary" data-toggle="dropdown">Enviar</button>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-primary">
+						<div class="panel-heading">Comentarios</div>
+						<div class="panel-body">
+							<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique dui eget velit rhoncus, vitae rutrum urna posuere. Proin euismod augue eu tellus dignissim, vel cursus lacus porttitor.</span><hr>
+							<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique dui eget velit rhoncus, vitae rutrum urna posuere. Proin euismod augue eu tellus dignissim, vel cursus lacus porttitor.</span>
+						</div>
+					</div>
+				</article>
+			</section>
+		</div>
+	</div>
+	<footer class="footer">
+		<p class="text-muted">Practica desarrollada por Juan Camilo Buitrago</p>
+	</footer>
+	<script src="dist/js/jquery.min.js"></script>
+	<script src="dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+

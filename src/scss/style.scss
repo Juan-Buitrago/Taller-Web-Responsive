@@ -1,10 +1,44 @@
-//Colores que se van a manejar en la web
+//Tipo de fuente que usara la web.
 $font-text:"Arial";
+
+//Colores que usara la aplicacion
 $background-color-footer:black;
 $color-white:white;
+$color-grey:grey;
 
+
+//Estilo para el footer de la web
 .footer {
+	width:100%;
 	position:fixed;
 	top:95%;
 	text-align:center;
+	background-color:$background-color-footer;
+	color:$color-grey; 
+}
+
+//Estilo para el detalle de los articulos.
+.container-articles {
+	section{
+		padding:50px;
+	}
+}
+.text-article{
+	
+	span{
+		margin-top:10px;
+		text-align: justify;
+	}
+}
+.img-article{
+	margin:auto;
+	max-width:200px;
+	max-height:180px;
+}
+
+//Estilo para la seccion de los comentarios de los articulos.
+textarea{
+	width:60%;
+	margin:auto;
+	border:1px solid grey;
 }
